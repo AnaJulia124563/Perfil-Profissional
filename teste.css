@@ -1,0 +1,95 @@
+
+.vagas-destaque {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vagas-destaque h2 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.vagas-destaque p {
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+
+.carousel-item {
+    min-width: 250px;
+    flex-shrink: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: left;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.tag-recorrente {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f57c00;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.carousel-prev {
+    left: -30px;
+}
+
+.carousel-next {
+    right: -30px;
+}
+
+.ver-mais {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ver-mais:hover {
+    background-color: #155bb5;
+}
