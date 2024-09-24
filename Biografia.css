@@ -15,7 +15,7 @@ header {
 }
 
 .background-container {
-  background-image: url("../Imagens/Ana\ Júlia\ Pedroso\ de\ Freitas.png");
+  background-image: url("/Imagens/Ana\ Júlia\ Pedroso\ de\ Freitas.png");
   background-size: cover;
   margin-left: 750px;
   width: 720px;
@@ -41,7 +41,7 @@ header {
 
 .cabecalho {
   display: flex;
-  background-image: url('../Imagens/AAA.png');
+  background-image: url('/Imagens/AAA.png');
   align-items: center;
   width: 100%;
 }
