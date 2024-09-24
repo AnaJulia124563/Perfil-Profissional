@@ -31,7 +31,7 @@
   
   .cabecalho {
     display: flex;
-    background-image: url("../Imagens/AAA.png");
+    background-image: url("Imagens/AAA.png");
     align-items: center;
     width: 100%;
   }
